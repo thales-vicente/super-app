@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.example.superapp.presentation.screens.AppNavGraph
 import com.example.superapp.presentation.theme.SuperAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -16,6 +17,7 @@ class MainActivity : ComponentActivity() {
         installSplashScreen()
         setContent {
             SuperAppTheme {
+                AppNavGraph()
             }
         }
     }
