@@ -39,6 +39,12 @@ fun AppToolbar(){
             textValue = stringResource(R.string.add_address),
             fontSizeValue = 20.sp
         )
+        Spacer(modifier = Modifier.weight(1f))
+        Icon(
+            modifier = Modifier.size(40.dp),
+            painter = painterResource(id = R.drawable.ic_notifications),
+            contentDescription = "Notification Image"
+        )
     }
 }
 @Preview(showBackground = true)
