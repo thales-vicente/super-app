@@ -66,6 +66,8 @@ dependencies {
     kapt(libs.hilt.compiler)
     implementation(libs.hilt.navigation.compose)
     implementation(libs.splash.screen)
+    implementation(libs.coil)
+    implementation(libs.coilNetwork)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

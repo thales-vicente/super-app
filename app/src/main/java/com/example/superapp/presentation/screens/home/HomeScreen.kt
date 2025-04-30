@@ -11,6 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.superapp.presentation.components.AppToolbar
+import com.example.superapp.presentation.components.BannerComponent
 import com.example.superapp.presentation.theme.whiteColor
 
 @Composable
@@ -24,10 +25,15 @@ fun HomeScreen(){
         Column(
             modifier = Modifier.fillMaxSize()
                 .fillMaxSize()
-                .wrapContentSize(Alignment.Center)
+                .wrapContentSize(Alignment.TopStart)
                 .background(whiteColor)
                 .padding(innerPadding)
         ) {
+            BannerComponent(
+                title = "Hello World",
+                description = "This is a preview",
+                imageUrl = ""
+            )
         }
     }
 }
