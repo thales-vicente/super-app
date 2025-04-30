@@ -10,6 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.superapp.R
 import com.example.superapp.presentation.components.AppToolbar
 import com.example.superapp.presentation.components.BannerComponent
 import com.example.superapp.presentation.theme.whiteColor
@@ -32,7 +33,8 @@ fun HomeScreen(){
             BannerComponent(
                 title = "Hello World",
                 description = "This is a preview",
-                imageUrl = ""
+                imageUrl = null,
+                resourceValue = R.drawable.ic_wealth
             )
         }
     }

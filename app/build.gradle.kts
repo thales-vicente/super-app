@@ -68,6 +68,7 @@ dependencies {
     implementation(libs.splash.screen)
     implementation(libs.coil)
     implementation(libs.coilNetwork)
+    implementation(libs.lottie)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
